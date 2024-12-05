@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  .dashboard, .new-ticket, .my-tickets, .user-profile {
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .blue { background-color: #3498db; }
+  .green { background-color: #2ecc71; }
+  .red { background-color: #e74c3c; }
+  .yellow { background-color: #f1c40f; }
+  
+  form, table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #2ecc71;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .profile-card, .feedback {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
